@@ -1,33 +1,7 @@
-.container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100vw;
-   height: 100vh;
-}
-
-.modal{
-    position: fixed;
-    top: 0;
-    left: 0;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(#000, .3);
-    transform: scale(0);
-    transition: transform .3s;
-
-    &__content{
-        background-color: #fff;
-        width: 50vw;
-        height: 50vh;
-        padding: 3rem;
-        box-shadow: 10px 10px 15px 0 rgba(#000, .2);
-    }
-
-    &--show{
-        transform: scale(1)
-    }
 }
