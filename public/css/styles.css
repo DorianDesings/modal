@@ -114,3 +114,9 @@ template { display: none; }
 body { background-color: #ddd; width: 100vw; font-family: sans-serif; }
 
 .title { margin: 0; padding: .5rem 0; text-align: center; color: #fff; background: #333; }
+
+.modal { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; background-color: rgba(0, 0, 0, 0.5); -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: -webkit-transform .3s; transition: -webkit-transform .3s; -o-transition: transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
+
+.modal__content { background-color: #fff; width: 50vw; height: 50vh; padding: 1rem; }
+
+.modal--show { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
