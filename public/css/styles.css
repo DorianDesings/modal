@@ -111,7 +111,7 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
-body { background-color: #ddd; width: 100vw; font-family: sans-serif; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; overflow: hidden; }
+body { background-color: #ddd; width: 100vw; font-family: sans-serif; }
 
 .title { margin: 0; padding: 1rem 0; text-align: center; color: #fff; background: #333; }
 
