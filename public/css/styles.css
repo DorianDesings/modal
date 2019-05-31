@@ -114,5 +114,3 @@ template { display: none; }
 body { background-color: #ddd; width: 100vw; font-family: sans-serif; }
 
 .title { margin: 0; padding: 1rem 0; text-align: center; color: #fff; background: #333; }
-
-.container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100vw; height: 100vh; }
