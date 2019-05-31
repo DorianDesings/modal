@@ -1,0 +1,1 @@
+"use strict";var button=document.getElementById("button"),modal=document.getElementById("modal");button&&button.addEventListener("click",function(){return modal.classList.add("modal--show")}),modal&&modal.addEventListener("click",function(t){t.target.classList.contains("modal")&&modal.classList.remove("modal--show")});
